@@ -25,7 +25,7 @@
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: overlay;
     height: 100vh; /* Ocupa toda a altura da janela */
-    padding: 0 500px;
+    padding: 0 300px;
 }
   
 .main-content .left-column {
@@ -37,30 +37,30 @@
     font-size: 4rem;
 }
 
-.left-column p {
+.left-column #evento {
     color: var(--text-color);
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-top: 20px;
 }
 
 .left-column #data {
     color: var(--text-color);
-    font-size: 2rem;
+    font-size: 22px;
     margin-top: 20px;
 }
 
 .left-column strong {
     color: var(--primary);
+    font-size: 22px;
 }
 
   
 .form-container {
     width: 100%; /* Ocupa toda a largura do container */
     max-width: 500px; /* Limita a largura do formulário */
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo transparente */
-    border-radius: 8px;
+    padding: 20px; 
+    background-color: var(--secondary);
 }
   
 .form-container h2 {
